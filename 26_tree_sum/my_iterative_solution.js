@@ -66,3 +66,4 @@ console.log(treeSum(a)); // -> 21
 module.exports = {
   treeSum
 };
+
