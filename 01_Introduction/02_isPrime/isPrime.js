@@ -1,5 +1,5 @@
 // My wack solution
-const isPrime = (n) => {
+const isPrime1 = (n) => {
   if (n === 1) return false;
   let divisible = 0;
   for (let i = 1; i <= n; i++) {
@@ -14,7 +14,7 @@ const isPrime = (n) => {
 
 // Alvin's Solution
 
-const isPrime = (n) => {
+const isPrime2 = (n) => {
   if (n < 2) return false;
 
   for (let i = 2; i <= Math.sqrt(n); i += 1) {
