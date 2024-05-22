@@ -1,6 +1,9 @@
 from collections import deque
 
+# Any recursive code requires the call stack and this traversal
+# requires the queue. Iterative is the go to
 
+# this is O(n^2)
 def breadth_first_values_basic(root):
     # use a queue
     if root is None:
@@ -21,6 +24,7 @@ def breadth_first_values_basic(root):
     return values
 
 
+# this is O(n)
 def breadth_first_values(root):
     if not root:
         return []
