@@ -27,7 +27,7 @@ def path_finder(root, target):
 
 
 def path_finder_append(root, target):
-    result = _path_finder(root, target)
+    result = _path_finder_append(root, target)
     if result is None:
         return None
     else:
