@@ -2,7 +2,8 @@ class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
-
+# my solution with T: O(n) but S: O(n) because of the array
+# Alvin's is S: O(1)
 
 def longest_streak(head):
     if head is None:
